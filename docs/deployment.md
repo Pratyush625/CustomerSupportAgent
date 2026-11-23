@@ -71,7 +71,7 @@ Optional: instead of creating `.env` manually, set GitHub secret `EC2_ENV_FILE` 
 
 - `/.github/workflows/ci.yml`
   - triggers: `pull_request`, push to non-main branches
-  - steps: checkout -> setup python+uv -> `uv sync --dev` -> `uv run pytest -q`
+  - steps: checkout -> setup Python -> install `requirements.txt` and pytest -> `python -m pytest -q`
 
 - `/.github/workflows/deploy-ec2.yml`
   - triggers: `push` to `main`, manual `workflow_dispatch`

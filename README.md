@@ -142,9 +142,10 @@ SQLite defaults to `data/support.db`; Chroma stores default to `data/chroma_rag/
 
 ## Tests
 
-Run the test suite after installing requirements:
+Install the runtime requirements and pytest, then run the test suite:
 
 ```bash
+python -m pip install -r requirements.txt pytest
 python -m pytest -q
 ```
 

@@ -1,0 +1,17 @@
+mem0ai
+sentence-transformers
+python-dotenv
+groq
+chromadb
+langchain
+langchain-core
+langgraph
+langchain-text-splitters
+langchain-groq
+fastapi
+uvicorn
+streamlit
+email-validator
+pydantic-settings
+requests
+google-genai
